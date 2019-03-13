@@ -1,0 +1,16 @@
+//default data is used if no state data is assigned.
+const initState={
+    //projects data
+    projects:[
+        {id:'1',title:'pckurdu1',content:'first project'},
+        {id:'2',title:'pckurdu2',content:'second project'},
+        {id:'3',title:'pckurdu3',content:'third project'},
+    ]
+}
+
+//create reducer with state and action parameters
+const projectReducer=(state=initState,action)=>{
+    return state
+}
+
+export default projectReducer
